@@ -5,8 +5,23 @@
     list-style: none;
 }
 
+
+
 nav div .navbar-nav a {
-    color: gray;
+    color: rgb(151, 151, 151);
+    font-size: 14px;
+    font-weight:600;
+}
+
+.nav--bg {
+    color: rgb(67, 77, 82);
+    background-color: rgb(67, 77, 82);
+}
+
+
+
+.comprar_tickets button {
+    color:rgb(53, 187, 53)
 }
 
 nav div .a--tickets{
@@ -14,7 +29,7 @@ nav div .a--tickets{
 }
 
 nav div .a--tickets:hover{
-    color:rgb(10, 202, 10);
+    color:rgb(10, 165, 10);
 }
 
 
@@ -23,10 +38,21 @@ nav div .a--tickets:hover{
     -webkit-filter: invert(1);
 }
 
+.text-conferencia {
+    color: white;
+    font-size: 30px;
+    font-weight:600;
+}
+
+.d-grid-btn{
+    border: rgb(150, 201, 62);
+    background-color: rgb(150, 201, 62);
+}
+
 .carousel{
     background-color: rgb(75, 71, 95);
- height: 610px;
- position: relative;
+    height: 610px;
+    position: relative;
 }
 
 .carousel img{
@@ -41,6 +67,31 @@ nav div .a--tickets:hover{
     width: 15%;
 }
 
+
+.text--oradores {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.card_title {
+    text-align:justify;
+    font-size: 20px;
+    font-weight:600;
+}
+
+.card-text {
+    text-align:justify;
+    font-size: 13px;
+}
+
+
+.card-title {
+    text-align:justify;
+    font-size: 25px;
+    font-weight:600;
+}
+
 .d-grid button {
     border: rgb(150, 201, 62);
     background-color: rgb(150, 201, 62);
@@ -51,18 +102,18 @@ nav div .a--tickets:hover{
 }
   
 .footer--background{
-    background:linear-gradient(to right, #1c3846 60%, #1f5271 );
+    background:linear-gradient(to right, #224355 60%, #235270dc );
 
 } 
 .footer--shadow{
-    filter: drop-shadow(2px, 4px, 6px, white);
-    -webkit-filter: drop-shadow(2px, 4px, 6px, white);
+    filter: drop-shadow(2px, 3px, 4px, white);
+    -webkit-filter: drop-shadow(2px, 3px, 4px, white);
 }
 
 footer div{
-    
     align-content: center;
 }
+
 footer a{
     font-size: 1rem;
     text-decoration: none;
@@ -77,4 +128,3 @@ footer a:hover{
 }
 
     
-
