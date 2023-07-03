@@ -87,39 +87,36 @@ nav div .navbar-nav a {
 }
 
 .d-grid button {
-    background-color: rgb(150, 201, 62) ;
-    border:rgb(150, 201, 62);
-    margin: 0;
-    margin-bottom: 15px;
-    width: 100%;
-    box-sizing: border-box;
+    border: rgb(150, 201, 62);
+    background-color: rgb(150, 201, 62);
 }
 
+.d-grid button:hover {
+    background-color: rgb(60, 194, 34);
+}
   
 .footer--background{
-    background:linear-gradient(to right, #1c3846 60%, #1f5271 );
+    background:linear-gradient(to right, #224355 60%, #235270dc );
 
 } 
 .footer--shadow{
-    filter: drop-shadow(2px, 4px, 6px, white);
-    -webkit-filter: drop-shadow(2px, 4px, 6px, white);
+    filter: drop-shadow(2px, 3px, 4px, white);
+    -webkit-filter: drop-shadow(2px, 3px, 4px, white);
 }
 
 footer div{
     align-content: center;
-    justify-content: space-evenly;
 }
+
 footer a{
     font-size: 1rem;
     text-decoration: none;
     color: white;
     transition: .3 all;
+    box-sizing: border-box;
 }
 
 footer a:hover{
     color:white;
     transition: .5 all;
 }
-
-    
-
