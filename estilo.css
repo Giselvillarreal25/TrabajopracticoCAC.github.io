@@ -5,6 +5,17 @@
     list-style: none;
 }
 
+nav div .navbar-nav a {
+    color: rgb(151, 151, 151);
+    font-size: 14px;
+    font-weight:600;
+}
+
+.nav--bg {
+    color: rgb(67, 77, 82);
+    background-color: rgb(67, 77, 82);
+}
+
 .estudiante{
     border: solid 0.3px rgb(13, 111, 255);
 }
